@@ -2,6 +2,9 @@
 Python helper for Semantic Versioning (http://semver.org/)
 """
 
+# Needed for antipackage with python 2
+from __future__ import absolute_import
+
 import collections
 import re
 
